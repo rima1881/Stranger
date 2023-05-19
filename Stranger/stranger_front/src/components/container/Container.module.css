@@ -9,7 +9,7 @@
 .headerContainer{
     display: flex;
     justify-content: center;
-    margin-top: 20px;
+    margin-top: 5vh;
 }
 
 .header{
@@ -25,4 +25,10 @@
 }
 .headerInner{
     color: #EF4444;
+}
+.line{
+    width: 30%;
+    background-color: #EF4444;
+    color: #EF4444;
+    border-radius: 5px;
 }

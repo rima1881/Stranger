@@ -13,7 +13,8 @@ export default function Header(){
                         wrapperClassName : styles.writer,
                         loop : false,
                         strings : '<nav class="typewriter">Welcome to our little </nav><nav class="typewriter-inner"> Art Gallery</nav>',
-                        autoStart : true
+                        autoStart : true,
+                        cursor : null
                     }}
                 >
                 </Typewriter>

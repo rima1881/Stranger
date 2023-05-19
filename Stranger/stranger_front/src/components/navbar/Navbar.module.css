@@ -1,22 +1,37 @@
 .navbar{
-    background-color: #1B1B1D;
+    background-color: #141A1E;
     display: flex;
+    width: 100%;
     height: 6vh;
+    min-height: 35px;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.15);
 }
-.item{
-    color : #FAFAFA;
-    cursor: pointer;
-    font-family: 'Roboto', sans-serif;
-    margin: 7px;
-    font-weight: bold;
+.navbar ul{
+    list-style: none;
+    display: flex;
+    margin: auto;
+    margin-left: 5px;
+    padding: 0 20px;
+}
+.navbar li{
+    padding: 0 10px;
+    position: relative;
+}
+.navIcons{
+    margin-right: 3px;
+}
+.navbar li a{
+    color: #FAFAFA;
+    font-weight: 600;
     transition: 0.5s;
-    margin-top: auto;
-    margin-bottom: auto;
-
+    font-family: 'Roboto', sans-serif;
+    cursor: pointer;
+}
+.navbar li a.loginA{
+    display: none;
 }
 .login{
     color : #FAFAFA;
-    margin: 10px;
     font-weight: bolder;
     transition: 0.5s;
     font-family: 'Roboto', sans-serif;
@@ -24,11 +39,61 @@
     margin-top: auto;
     margin-bottom: auto;
     margin-left: auto;
+    margin-right: 15px;
 }
 .login:hover{
     color: #EF4444;
 }
-
-.item:hover{
+.navbar li a:hover
+{
     color: #EF4444;
+}
+.menuIcon{
+    color: #f5f5f5;
+}
+.mobile{
+    display: none;
+    margin: auto;
+    margin-right: 15px;
+}
+
+@media screen and (max-width:760px) {
+    .navbar li a.loginA{
+        display: block;
+    }
+    .navbar{
+        display: flex;
+        position: fixed;
+        top: 0;
+        left: 0;
+        flex-direction: column-reverse;
+    }
+    .navbar ul{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        position: fixed;
+        top: 6vh;
+        right: -300px;
+        width: 300px;
+        height: 100vh;
+        background-color: #2a3239;
+        padding: 0;
+        transition: 0.3s ease-in-out;
+    }
+    .navbar ul.active{
+        right: 0px;
+    }
+    .navbar ul li {
+        margin-left: 5px;
+        margin-top: 10px;
+    }
+    .login{
+        display: none;
+    }
+    .mobile{
+        margin: auto;
+        margin-right: 8px;
+        display: block;
+    }
 }

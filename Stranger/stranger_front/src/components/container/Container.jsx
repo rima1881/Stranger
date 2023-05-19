@@ -8,6 +8,8 @@ export default function Container(){
             <p className={styles.header}> Our <nav className={styles.headerInner}>&nbsp;Posters!!! </nav></p>
         </div>
         
+        <hr  className={styles.line}/>
+
         <div className={styles.container}>
 
             <Card />

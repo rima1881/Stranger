@@ -8,12 +8,12 @@ export default function Footer(){
     return(
         <div className={styles.footer}>
             <p className={styles.middlePart}>
-                Copyright © 2023 Stranger Group
+                Copyright © 2023 <span>&nbsp;Stranger Group</span>
             </p>
-            <div className={styles.icons}>
-                <FontAwesomeIcon icon={faGithub} size='2x' color='#B2BECD' />
-                <FontAwesomeIcon icon={faDiscord} size='2x' color='#B2BECD' />
-                <FontAwesomeIcon icon={faLinkedin} size='2x' color='#B2BECD' />
+            <div>
+                <FontAwesomeIcon icon={faGithub} size='2x' className={styles.icons} />
+                <FontAwesomeIcon icon={faDiscord} size='2x' className={styles.icons} />
+                <FontAwesomeIcon icon={faLinkedin} size='2x' className={styles.icons} />
             </div>
         </div>
     )

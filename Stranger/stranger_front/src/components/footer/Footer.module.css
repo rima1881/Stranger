@@ -3,23 +3,38 @@
     display: flex;
     width: 100%;
     height: 6vh;
+    min-height: 35px;
     margin-top: 40px;
     box-shadow: 0 0rem 1rem rgba(0, 0, 0, 0.15);
 }
-.icons{
+.footer div{
     display: flex;
     margin: auto;
 }
-.icons svg{
-    margin: 5px;
+.icons{
+    color: #B2BECD;
+    margin-right: 5px;
     cursor: pointer;
+    width: 2vw;
+    min-width: 20px;
+    transition: 0.5s;
+}
+.icons:hover,
+.middlePart span
+{
+    color: #17cf97;
 }
 .middlePart{
     margin: auto;
     font-family: 'Roboto', sans-serif;
     font-weight: bolder;
-    font-size: 15px;
+    font-size: 1rem;
     display: flex;
     color: #B2BECD;
     text-align: center;
+}
+@media screen and (max-width = 760px) {
+    .footer div{
+        display: none;
+    }
 }
