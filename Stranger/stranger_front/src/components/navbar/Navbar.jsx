@@ -6,13 +6,12 @@ import { faBars ,faXmark ,faHome ,faCalendarTimes , faDollarSign ,faCircleInfo ,
 export default function Navbar(props){
 
     const [ cliked , setClicked] = useState(false);
-    const [ smallNav , setSmallNav] = useState(false);
 
-    
+
 
     return(
         <nav className={styles.navbar}>
-            <ul className={cliked && styles.active}>
+            <ul className={cliked ? styles.active : ''}>
                 <li>
                     <a>
                         <FontAwesomeIcon icon={faHome} className={styles.navIcons}/>
@@ -39,16 +38,29 @@ export default function Navbar(props){
                 </li>
                 <li>
                     <a className={styles.loginA}>
-                    <FontAwesomeIcon icon={faCircleUser} className={styles.navIcons}/>
-                        Login | Sign Up
+                        <span>
+                            <FontAwesomeIcon icon={faCircleUser} className={styles.navIcons}/>
+                            Login
+                        </span> | 
+                        <span>
+                            Sign Up
+                        </span>
                     </a>
                 </li>
             </ul>
-            
-            <span className={styles.login}>
-            <FontAwesomeIcon icon={faCircleUser} className={styles.navIcons}/>
-                Login | Sign Up
+
+            <span className={styles.login} >
+                <span onClick={props.loginBtnHandle}>
+                    <FontAwesomeIcon icon={faCircleUser} className={styles.navIcons}/>
+                    Login
+                    &nbsp;
                 </span>
+                 |
+                 <span onClick={props.signupBtnHandle}>
+                    &nbsp; 
+                    Sign Up
+                 </span>
+            </span>
 
             <div className={styles.mobile} onClick={switchMod}>
                 <FontAwesomeIcon icon={cliked ? faXmark : faBars} className={styles.menuIcon} />

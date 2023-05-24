@@ -1,6 +1,9 @@
 package quebec.strangerGroup.strangerAPI.models;
 
+import com.fasterxml.jackson.annotation.JsonIdentityInfo;
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.annotation.JsonManagedReference;
+import com.fasterxml.jackson.annotation.ObjectIdGenerators;
 import jakarta.persistence.*;
 
 import java.util.Set;
@@ -27,8 +30,8 @@ public class Artist {
     @Column(name = "artist_email")
     private String artistEmail;
 
-    @JsonManagedReference
-    @OneToMany(mappedBy = "artist")
+    @JsonIgnore
+    @OneToMany(mappedBy = "artist",orphanRemoval = true)
     private Set<Poster> posters;
 
 

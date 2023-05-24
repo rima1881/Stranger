@@ -1,6 +1,8 @@
 package quebec.strangerGroup.strangerAPI.models;
 
 import com.fasterxml.jackson.annotation.JsonBackReference;
+import com.fasterxml.jackson.annotation.JsonIdentityInfo;
+import com.fasterxml.jackson.annotation.ObjectIdGenerators;
 import jakarta.persistence.*;
 
 @Entity
@@ -29,9 +31,8 @@ public class Poster {
     private int price;
 
 
-    @JsonBackReference
+
     @ManyToOne
-    @JoinColumn(name = "artist_id" , nullable = false)
     private Artist artist;
 
 

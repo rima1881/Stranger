@@ -8,6 +8,7 @@ import quebec.strangerGroup.strangerAPI.models.Poster;
 import java.util.List;
 
 @Service
+
 public class PosterServiceImpl implements PosterService{
 
     private DAO dao;

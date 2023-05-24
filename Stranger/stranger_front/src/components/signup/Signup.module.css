@@ -1,0 +1,115 @@
+.on{
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0, 0, 0, 0.4);
+    justify-content: center;
+    display: flex;
+}
+.form{
+    color:#f5f5f5;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 5px 5px 15px -1px rgba(0,0,0,0.75);
+}
+.off{
+    display: none;
+}
+.container{
+    margin: auto;
+    position: relative;
+    border-radius: 7px;
+    width: 40%;
+    background-color: #141A1E;
+}
+.form input{
+    margin: auto;
+    margin-top: 5px;
+    width: 80%;
+    border: 1px solid #B2BECD;
+    padding: 5px;
+    color: #f5f5f5;
+    transition: 0.5s;
+    background-color: #141A1E;
+    height: 3vh;
+    border-radius: 7px;
+}
+.form input:hover{
+    border: 1px solid #17cf97;
+}
+.form input:focus{
+    outline: none;
+    border: 1px solid #17cf97;
+}
+.form label{
+    width: 80%;
+    margin: auto;
+    color: #f5f5f5;
+    font-weight: 600;
+    font-size: 1rem;
+    transition: 0.5s;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 10px;
+}
+.form button{
+    width: 80%;
+    height: 30px;
+    margin: auto;
+    margin-top: 20px;
+    text-decoration: none;
+    font-weight: 300;
+    background-color: #141A1E;
+    color: #17cf97;
+    font-weight: 600;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    transition: 0.5s;
+    border-radius: 5px;
+    border-color: #17cf97;
+    cursor: pointer;
+    border-width: 0.5px;
+    border-style: solid;
+    margin-bottom: 20px;
+}
+.form button:hover{
+    background-color: #17cf97;
+    color: #141A1E;
+}
+
+.form button p{
+    margin: auto;
+    font-size: 1rem;
+}
+.form nav{
+    display: flex;
+    width: 100%;
+    border-bottom: 1px solid #B2BECD;
+}
+.form nav span{
+    margin: auto;
+    margin-top: 5px;
+    margin-right: 5px;
+}
+.close{
+    color: #EF4444;
+    margin: auto;
+    margin-top: 5px;
+    margin-right: 5px;
+    cursor: pointer;
+    margin-bottom: 5px;
+    width: 15px;
+    transition: 0.5s;
+    height: 15px;
+    border-radius: 7.5px;
+}
+.close:hover{
+    background-color: #EF4444;
+    color: #f5f5f5;
+}
