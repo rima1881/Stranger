@@ -4,6 +4,7 @@
     height: 55px;
     display: flex;
     background-color: #cc6c5c;
+    box-shadow: 5px 10px;
 }
 
 .mainNav{

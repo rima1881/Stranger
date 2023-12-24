@@ -2,9 +2,6 @@
 
 <a href="http://stranger.quebec">Link</a>
 
-There is nothing else to be said.
-
-
 ## Running
 
 > npm i
