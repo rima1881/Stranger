@@ -1,0 +1,29 @@
+Games : [
+    {
+        name : "Eat Ass",
+        image : "Pacman.jpg",
+        description : "A simple version of pacman. it was my first game. there is no ass in the game if you are
+        wondering. The image here is an sticker that is being sold in amazon. I made this game just for that stiker.
+        The game has refresh issue when bots move with player so I turned them off. from What I understand it can be fixed using
+        getch instead of cout so there is no need for refreshing the hole screen but I am over with the game it was just a meme I
+        am not gonna spend more time on it",
+        download : "pacman.exe",
+        github : "https://github.com/rima1881/pacman"
+    },
+    {
+        name : "Otthelo",
+        image : "Othello.jpg",
+        descripption : "This game was my project in one of my classes. The TA chouldn't run the game So I got 71 which made me really sad . 
+        My main suspition is that the TA didn't put my setting file which had all the games. So for this version I got rid of of the setting and
+        load/save cause they were just extra pain in the ass. if You are the TA that graded me Fuck u"
+        download : "othello.exe",
+        github : "https://github.com/rima1881/othello"
+    },
+    {
+        name : "miniMK"
+        image : "miniMk.jpg",
+        description : "I haven't made this game yet. I may never do it. All I can say is I am huge fan of mk and may one day
+        my lazy ass desides to make it.",
+        github : "https://github.com/rima1881/minimk"
+    }
+]
