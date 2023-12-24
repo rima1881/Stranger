@@ -1,0 +1,29 @@
+
+.container{
+    width: 100%;
+    height: 55px;
+    display: flex;
+    background-color: #cc6c5c;
+}
+
+.mainNav{
+    display: flex;
+    list-style: none;
+    margin-left: 15px;
+    margin-right: auto;
+}
+
+.secNav{
+    display: flex;
+    list-style: none;
+    margin-right: 15px;
+}
+
+.mainNav li{
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.secNav li{
+    margin-right: 10px;
+}
