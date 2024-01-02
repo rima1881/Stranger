@@ -1,0 +1,18 @@
+slides : [
+    {
+        header : "what is this",
+        body : "Right now it is A scam. You can donate your money to me and expect nothing to be happend"
+    },
+    {
+        header : "what is the future plan",
+        body : "I have no plan for future yet. This website was made just because I could and was bored."
+    },
+    {
+        header : "empty",
+        body : "this slide is for making three slides instead of two. My mind is empty :("
+    },
+    {
+        header : "thunder god (Left)",
+        body : "left right A"
+    }
+]

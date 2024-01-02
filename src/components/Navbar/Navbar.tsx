@@ -5,6 +5,8 @@ export default function Navbar(){
 
     return(
         <div className={styles.container}>
+            <div className={styles.logo}>
+            </div>
             <ul className={styles.mainNav}>
                 <li>
                     Home
