@@ -1,4 +1,4 @@
-import { ReactNode } from "react"
+import style from "./Header.module.css"
 
 export default function Header(){
 
@@ -12,7 +12,15 @@ export default function Header(){
     }
 
     return(
-        <div>
+        <div className={style.body}>
+            <div className={style.container}>
+                <h1>
+                    what is this
+                </h1>
+                <p>
+                It is A scam. You can donate your money to me and expect nothing to be happend
+                </p>
+            </div>
         </div>
     )    
 }

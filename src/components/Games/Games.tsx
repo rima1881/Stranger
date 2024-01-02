@@ -1,6 +1,6 @@
 import Item from "../Item/Item"
 
-export default function Products(){
+export default function Games(){
 
     return (
         <div>
