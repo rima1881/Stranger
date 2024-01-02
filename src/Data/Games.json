@@ -20,10 +20,17 @@ Games : [
         github : "https://github.com/rima1881/othello"
     },
     {
-        name : "miniMK"
+        name : "dog simulator",
+        image : "dogsim.jpg",
+        description : "I was sitting in a cafe and drinking coffee like a doosh bag and sodenly I saw a person in street trying to control his
+        dog. dog simulator is a game to controll your dog not to kill people.(not made yet :( )",
+        github : "https://github.com/rima1881/dogsim"
+    },
+    {
+        name : "miniMK",
         image : "miniMk.jpg",
-        description : "I haven't made this game yet. I may never do it. All I can say is I am huge fan of mk and may one day
-        my lazy ass desides to make it.",
+        description : "mini mk is a 2d game happening in mk universe. I am a huge mk fan so if you work for mk publisher don't sue me. just message
+        me and I will bring it down myself.( it will be made when I get to say I have a home some where )",
         github : "https://github.com/rima1881/minimk"
     }
 ]
