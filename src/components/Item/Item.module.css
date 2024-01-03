@@ -1,0 +1,34 @@
+
+.cart{
+    display: flex;
+    width: 270px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    flex-direction: column;
+    border-radius: 15px;
+    background-color: #eee;
+    transition: 0.5s;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 10px 10px #aaa;
+}
+.cart:hover{
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+.cart img{
+    border-radius: 15px 15px 0 0;
+    height: 350px;
+}
+
+.cart p{
+    padding: 5px 5px 0 5px;
+}
+.cart h2{
+    margin: 0;
+}
+.cart div{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}

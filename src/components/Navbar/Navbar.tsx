@@ -15,13 +15,13 @@ export default function Navbar(){
                     Games
                 </li>
                 <li>
-                    Contact me
-                </li>
-                <li>
-                    Colabrate
+                    About
                 </li>
                 <li>
                     Donation
+                </li>
+                <li>
+                    Request
                 </li>
             </ul>
 

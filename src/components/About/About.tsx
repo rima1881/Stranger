@@ -5,48 +5,34 @@ export default function About(){
 
     return(
         <div className={styles.Container}>
-            <span className={styles.header}>About stranger.quebec</span>
-            <div className={styles.body}>
-                Stranger.quebec is a non profitble organization with total of one employee.
+            <h2 className={styles.header}>About <span>Stranger</span></h2>
+            <div className={styles.description}>
+                Stranger<span>.quebec</span> is an indie game development group
             </div>
-            <div>
-                <p>
-                    employees
-                </p>
-                <div>
-                    <div>
-                        <p>Founder</p>
-                        <p>rima</p>
-                        <p>In my language it is from right to left</p>
-                    </div>
-                    <div>
-                        <p>Dev team lead</p>
-                        <p>amd</p>
+            <div className={styles.body}>
+                    <div className={styles.cart}>
+                        <h3>
+                            Dev team lead 
+                        </h3>
+                        <a>Rima</a>
+                        <img src="rima.png" className={styles.img} />
+
                         <p>
-                            Honesly, I have no idea why. for years I tried to
-                            figure out why I chose amd. I have no idea it just randomly
-                            came to my mind. (it is not about this amd. I am not a fanboy)
+                            In my language it is from right to left 
                         </p>
                     </div>
-                    <div>
-                        <p>Cheif Investor</p>
-                        <p>Amir</p>
-                        <p>
-                            I guess I am just wasting money
-                        </p>
-                    </div>
-                    <p>
-                        <p>
+                    <div className={styles.cart}>
+                        <h3>
                             Graphical Designer
-                        </p>
-                        <p>GPT - 4</p>
+                        </h3>
+                        <a>GPT - 4</a>
+                        <img src="chat_gpt.png" className={styles.img} />
+
                         <p>
                             for 20$ per month it have some value. Open AI has a good buisness plan.
                             I wish I could say the same for me
                         </p>
-                    </p>
-                </div>
-
+                    </div>
             </div>
         </div>
     )

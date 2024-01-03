@@ -1,8 +1,8 @@
 .body{
-    background-image: url("header.png");
+    background-image: url("running_from_past.png");
     background-size: contain;
     width: 100%;
-    height: 80vh;
+    height: calc(100vh - 55px);
     background-size: 100%;
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -13,7 +13,7 @@
     margin: auto;
     width: 30%;
     border-radius: 10px;
-    background-color: rgba(20, 28, 48,0.5);
+    background-color: rgba(20, 28, 48,0.7);
     display: flex;
     flex-direction: column;
     padding: 10px;

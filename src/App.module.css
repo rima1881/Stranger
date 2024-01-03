@@ -1,0 +1,15 @@
+.dog_sim{
+    margin-top: 10vh;
+    width: 100%;
+    box-shadow: 0 -5px 5px #999 , 0 5px 5px #999;
+    margin-bottom: 0;
+}
+.begging_gpt{
+    margin-top: 10vh;
+    width: 100%;
+    background-image: url("begging_chatgpt.png");
+    box-shadow: 0 -5px 5px #999 , 0 5px 5px #999;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 50vh;
+}
