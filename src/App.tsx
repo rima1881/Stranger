@@ -14,7 +14,7 @@ function App() {
       <Navbar />
       <Header />
       <Games />
-      <img src="dog_simulator_wide.png" className={style.dog_sim} />
+      <div className={style.dog_sim}></div>
       <About />
       <div className={style.begging_gpt}></div>
       <Request />

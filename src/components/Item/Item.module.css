@@ -18,17 +18,75 @@
 }
 .cart img{
     border-radius: 15px 15px 0 0;
-    height: 350px;
+    width: 100%;
 }
 
 .cart p{
     padding: 5px 5px 0 5px;
+    margin-bottom: auto;
+    margin-left: 5px;
 }
 .cart h2{
-    margin: 0;
+    margin-left: 10px;
+    margin-bottom: 0;
+    font-size: 1.2rem;    
 }
 .cart div{
     display: flex;
-    flex-direction: column;
+    margin-top: auto;
+    margin-bottom: 5px;
+    flex-direction: row;
     padding: 10px;
+}
+
+.cart div span{
+    margin-right: 5px;
+    font-weight: 500;
+}
+
+.download{
+    background-color: #141C30;
+    width: 40%;
+    font-size: 1rem;
+    padding: 5px;
+    border-radius: 15px;
+    border: none;
+    margin: auto;
+}
+
+
+
+.download{
+    color: #fff;
+    background-color: #141C30;
+    border-color: #141C30;
+    border-style: solid;
+    border-width: 1px;
+    transition: 0.5s;
+    width: 80%;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 10px;
+}
+.download:hover{
+    color: #141C30;
+    background-color: #eee;
+}
+
+.open{
+    background-color: #00Dfff;
+    cursor: pointer;
+    color: #111;
+    border:none;
+    margin-right: 5px;
+    font-weight: 600;
+    border-radius: 5px;
+}
+.platform{
+    background-color: #009639;
+    color: #111;
+    border:none;
+    margin-right: 5px;
+    font-weight: 600;
+    border-radius: 5px;
 }

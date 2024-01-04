@@ -1,51 +1,72 @@
 import Item from "../Item/Item"
 import style from "./Games.module.css"
-import { useState } from "react"
+import { Dispatch, SetStateAction, useState } from "react"
 
 
 export default function Games(){
 
-    const [Games : {name : string}[]},setGames] = useState([]);
+    type Game = { name : string ,
+        Description : string , 
+        img : string , 
+        download : string ,
+        platform : string,
+        isOpen : boolean 
+    }
 
-    setGames([
+    const [Games,setGames] = useState<Game[]>([
         {
-            name : "Pacman",
+            name : "PacCon",
             Description : "The very First Game That was make by me. The inspiration for this game was this stiker",
-            img : "pacman.png",
+            img : "pacCon.png",
             download : "pacman.exe",
-            source : "github.com/rima1881/pacman"
+            platform : "Console",
+            isOpen : true
         },
         {
             name : "Othello",
             Description : "A simple othello game. This game was created because I was forced",
             img : "othello.png",
             download : "othello.exe",
-            source : "github.com/rima1881/othello"
+            platform : "Console",
+            isOpen : true
         },
         {
             name : "Dog Simulator",
-            Description : "You have a lovely Dog that is about to end the world. Can you Control him?"
+            Description : "You have a lovely Dog that is about to end the world. Can you Control him?",
             img : "dog_sim_1x1.png",
             download : "",
-            source : ""
+            platform : "mobile",
+            isOpen : false
         },
         {
-            name : "running from past",
+            name : "Running from past",
             Description : "You are a useless programmer stuck in the desert while your ancestor is chasing you for your failers",
             img : "running_from_past_1x1.png",
             download : "",
-            source : ""
+            platform : "mobile",
+            isOpen : false
         }
-    ])
+    ]);
+
+    /*
+    {
+            name : "Valheim Crow Mod",
+            Description : "A simple mod with a quest line that gives the player the power to turn in a crow.",
+            img : "valheim_crow_mod_1x1.png",
+            download : "github.com/rima1881",
+            platform : "Mod",
+            isOpen : true
+        }
+    */
 
     return (
         <div className={style.body}>
             <h1 className={style.title}>Games</h1>
+            <hr className={style.line} />
+
             <div className={style.container}>
-                <Item />
-                <Item />
-                <Item />
-                <Item />
+            {Games.map(g => <Item name={g.name} img={g.img} Description={g.Description} platform={g.platform} download={g.download} isOpen={g.isOpen} />)}
+            
             </div>
         </div>
     )

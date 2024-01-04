@@ -1,19 +1,15 @@
 import style from "./Item.module.css"
 
-export default function Item(props){
+export default function Item(props : { name:string , img : string , Description : string , download : string  , isOpen : boolean , platform : string }){
     return (
         <div className={style.cart}>
             <img src={props.img} />
-            <h2>{props.title}</h2>
+            <h2>{props.name}</h2>
             <p>
-                It is a simple version of pacman and my first game. Due to console limitions I couldn't turn the bots on.
-                this game was made because of <a>this sticker</a>
-                {props.description}
+                {props.Description}
             </p>
-            <div>
-                <button>Download</button>
-                <a>Source Code</a>
-            </div>
+            <div><span>tags:</span> { props.isOpen && <button onClick={() =>alert("The Source Code for this game Can be found in my github")} className={style.open}>Open Source</button>} <button className={style.platform}>{props.platform}</button></div>
+            <a className={style.download} href={props.download}>Download</a>
         </div>
     )
 }

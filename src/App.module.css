@@ -1,8 +1,11 @@
 .dog_sim{
-    margin-top: 10vh;
+    margin-top: 20vh;
     width: 100%;
+    background-image: url("dog_simulator_wide.png");
     box-shadow: 0 -5px 5px #999 , 0 5px 5px #999;
-    margin-bottom: 0;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 50vh;
 }
 .begging_gpt{
     margin-top: 10vh;
