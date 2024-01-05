@@ -1,13 +1,8 @@
 # Stranger
+<a href="http://stranger.quebec">Stranger.quebec</a> is my personal website. The website has been written with react and typescript with no backend. All the Code has been written by me and images were produced using gpt4.
 
-<a href="http://stranger.quebec">Link</a>
-
-## Running
+# Running
 
 > npm i
 
 > npm run dev
-
-## Fuck u
-Fuck u
-<!--I am just tired don't get sad. if you are reading this comment I respect u-->
