@@ -12,8 +12,16 @@
     height: 55px;
     display: flex;
     background-color: #141C30;
-    color: #fff;
     box-shadow: 5px 5px 10px #777;
+}
+
+.navContent{
+    display: flex;
+    color: #fff;
+    height: 100%;
+    margin-right: 5px;
+    margin-left: 5px;
+    width: calc(100% - 65px);
 }
 
 .mainNav{
@@ -43,4 +51,17 @@
 
 .secNav li{
     margin-right: 10px;
+}
+
+.secNav li a {
+    color: #fff;
+}
+
+@media screen and (max-width:760px) {
+
+    .navContent{
+        display: none;
+    }
+
+    
 }

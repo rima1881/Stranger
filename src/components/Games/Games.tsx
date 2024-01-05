@@ -65,7 +65,7 @@ export default function Games(){
             <hr className={style.line} />
 
             <div className={style.container}>
-            {Games.map(g => <Item name={g.name} img={g.img} Description={g.Description} platform={g.platform} download={g.download} isOpen={g.isOpen} />)}
+            {Games.map(g => <Item name={g.name} key={g.name} img={g.img} Description={g.Description} platform={g.platform} download={g.download} isOpen={g.isOpen} />)}
             
             </div>
         </div>

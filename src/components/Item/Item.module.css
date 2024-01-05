@@ -1,9 +1,10 @@
 
 .cart{
     display: flex;
-    width: 270px;
+    width: 20%;
+    min-width: 250px;
     margin-top: 5px;
-    margin-bottom: 5px;
+    margin-bottom: 20px;
     flex-direction: column;
     border-radius: 15px;
     background-color: #eee;
@@ -14,7 +15,7 @@
 }
 .cart:hover{
     margin-top: 0;
-    margin-bottom: 10px;
+    margin-bottom: 25px;
 }
 .cart img{
     border-radius: 15px 15px 0 0;
