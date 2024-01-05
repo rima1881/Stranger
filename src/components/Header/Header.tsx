@@ -6,7 +6,6 @@ export default function Header(){
 
     const slide = () => {
         <div>
-            <p>title</p>
             <p>meow.moew.blab.fuck off. assholemeow.moew.blab.fuck off. assholemeow.moew.blab.fuck off. assholemeow.moew.blab.fuck off. assholev</p>
         </div>
     }
@@ -15,10 +14,10 @@ export default function Header(){
         <div className={style.body}>
             <div className={style.container}>
                 <h1>
-                    what is this
+                    Running from past
                 </h1>
                 <p>
-                It is A scam. You can donate your money to me and expect nothing to be happend
+                    I can't believe all of that was for this failure
                 </p>
             </div>
         </div>

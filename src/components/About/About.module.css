@@ -6,7 +6,7 @@
     margin-top: 0;
 }
 .header{
-    margin-top: 40px;
+    margin-top: 60px;
     margin-left: auto;
     margin-right: auto;
     background-color: #141C30;
@@ -54,17 +54,38 @@
     background-color: #fff;
 }
 .cart{
-    width: 450px;
+    width: 300px;
     display: flex;
     flex-direction: column;
     background-color: #fff;
     margin-left: auto;
-    border-color: #141C30;
-    border-width: 1px;
-    border-style: solid;
+    margin-right: auto;
+    border-radius: 15px;
+    box-shadow: 0px 5px 5px #777; 
+    margin-bottom: 50px;
+    padding: 10px;
+}
+.contact{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+    box-shadow: 0px 5px 5px #777; 
+    background-color: #141C30;
+    margin-left: auto;
+    color: #fff;
     margin-right: auto;
     border-radius: 15px;
     padding: 10px;
+}
+.contact p{
+    margin-bottom: 4px;
+    font-weight: 500;
+}
+.contact span{
+    color: red;
+    margin-bottom: 10px;
+    margin-top: auto;
 }
 .cart h3{
     margin-left: auto;
@@ -77,11 +98,11 @@
     margin-bottom: 10px;
 }
 .img{
-    width: 300px;
-    height: 300px;
+    width: 200px;
+    height: 200px;
     margin-left: auto;
     margin-right: auto;
-    border-radius: 150px;
+    border-radius: 100px;
 }
 .body{
     width: 70%;

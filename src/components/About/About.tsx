@@ -27,11 +27,17 @@ export default function About(){
                         </h3>
                         <a>GPT - 4</a>
                         <img src="chat_gpt.png" className={styles.img} />
-
                         <p>
-                            for 20$ per month it have some value. Open AI has a good buisness plan.
-                            I wish I could say the same for me
+                            As an AI language model, I am a much better artist than Rima
                         </p>
+                    </div>
+                    <div className={styles.contact}>
+                        <h2>Contact info</h2>
+                        <p>Telegram: +1 (438) 282 3324</p>
+                        <p>LinkedIn: <a href="https://www.linkedin.com/company/strangergroup">Stranger</a></p>
+                        <p>Github: <a href="https://github.com/rima1881">Github</a></p>
+                        <p>Email: rima@stranger<span>.quebec</span></p>
+                        <span>Do not Contact me in any other way</span>
                     </div>
             </div>
         </div>

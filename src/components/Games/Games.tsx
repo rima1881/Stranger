@@ -16,7 +16,7 @@ export default function Games(){
     const [Games,setGames] = useState<Game[]>([
         {
             name : "PacCon",
-            Description : "The very First Game That was make by me. The inspiration for this game was this stiker",
+            Description : "The very First Game That was made by me.",
             img : "pacCon.png",
             download : "pacman.exe",
             platform : "Console",
@@ -24,7 +24,7 @@ export default function Games(){
         },
         {
             name : "Othello",
-            Description : "A simple othello game. This game was created because I was forced",
+            Description : "A simple Othello game. This game was created because I was forced",
             img : "othello.png",
             download : "othello.exe",
             platform : "Console",
@@ -40,7 +40,7 @@ export default function Games(){
         },
         {
             name : "Running from past",
-            Description : "You are a useless programmer stuck in the desert while your ancestor is chasing you for your failers",
+            Description : "You are a useless programmer stuck in the desert while your ancestor is chasing you for your failures",
             img : "running_from_past_1x1.png",
             download : "",
             platform : "mobile",
